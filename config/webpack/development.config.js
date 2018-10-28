@@ -1,12 +1,35 @@
 var path = require('path');
+const glob = require('glob');
+var root = path.resolve(__dirname, '../..');
 var webpack = require('webpack');
 var assetsPath = path.join(__dirname, '../..', 'public', 'assets');
 var sourcePath = path.join(__dirname, '../..', 'app', 'assets', 'javascripts');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
+function generateEntries() {
+    // generate automatic entry points
+    const autoEntries = {};
+    const pageEntries = glob.sync('pages/**/index.js', {
+        cwd: sourcePath,
+    });
+
+    function generateAutoEntries(path, prefix = '.') {
+        const chunkPath = path.replace(/\/index\.js$/, '');
+        const chunkName = chunkPath.replace(/\//g, '.');
+        autoEntries[chunkName] = `${prefix}/${path}`;
+    }
+
+    pageEntries.forEach(path => generateAutoEntries(path));
+
+    const manualEntries = {
+    };
+
+    return Object.assign(manualEntries, autoEntries);
+}
+
 var config = {
-    context: path.join(__dirname, '..'),
-    entry: path.join(sourcePath, '/application.js'),
+    context: path.join(root, 'app/assets/javascripts'),
+    entry: generateEntries,
     output: {
         path: assetsPath,
         filename: '[name].bundle.js',
@@ -29,7 +52,10 @@ var config = {
             {
                 test: /\.js$/,
                 loader: 'babel-loader',
-                exclude: /node_modules/
+                exclude: /node_modules/,
+                query: {
+                    presets: ['es2015']
+                }
             },
             {
                 test: /\.coffee$/,

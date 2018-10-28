@@ -81,19 +81,20 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "../app/assets/javascripts/application.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./pages/homepage/index.js");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "../app/assets/javascripts/application.js":
-/*!************************************************!*\
-  !*** ../app/assets/javascripts/application.js ***!
-  \************************************************/
+/***/ "./pages/homepage/index.js":
+/*!*********************************!*\
+  !*** ./pages/homepage/index.js ***!
+  \*********************************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-eval("// This is a manifest file that'll be compiled into application.js, which will include all the files\n// listed below.\n//\n// Any JavaScript/Coffee file within this directory, lib/assets/javascripts, or any plugin's\n// vendor/assets/javascripts directory can be referenced here using a relative path.\n//\n// It's not advisable to add code directly here, but if you do, it'll appear at the bottom of the\n// compiled file. JavaScript code in this file should be added after the last require_* statement.\n//\n// Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details\n// about supported directives.\n//\n//= require rails-ujs\n//= require turbolinks\n//= require_tree .//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi4vYXBwL2Fzc2V0cy9qYXZhc2NyaXB0cy9hcHBsaWNhdGlvbi5qcy5qcyIsInNvdXJjZXMiOlsid2VicGFjazovLy9hcHAvYXNzZXRzL2phdmFzY3JpcHRzL2FwcGxpY2F0aW9uLmpzPzc2NjciXSwic291cmNlc0NvbnRlbnQiOlsiLy8gVGhpcyBpcyBhIG1hbmlmZXN0IGZpbGUgdGhhdCdsbCBiZSBjb21waWxlZCBpbnRvIGFwcGxpY2F0aW9uLmpzLCB3aGljaCB3aWxsIGluY2x1ZGUgYWxsIHRoZSBmaWxlc1xuLy8gbGlzdGVkIGJlbG93LlxuLy9cbi8vIEFueSBKYXZhU2NyaXB0L0NvZmZlZSBmaWxlIHdpdGhpbiB0aGlzIGRpcmVjdG9yeSwgbGliL2Fzc2V0cy9qYXZhc2NyaXB0cywgb3IgYW55IHBsdWdpbidzXG4vLyB2ZW5kb3IvYXNzZXRzL2phdmFzY3JpcHRzIGRpcmVjdG9yeSBjYW4gYmUgcmVmZXJlbmNlZCBoZXJlIHVzaW5nIGEgcmVsYXRpdmUgcGF0aC5cbi8vXG4vLyBJdCdzIG5vdCBhZHZpc2FibGUgdG8gYWRkIGNvZGUgZGlyZWN0bHkgaGVyZSwgYnV0IGlmIHlvdSBkbywgaXQnbGwgYXBwZWFyIGF0IHRoZSBib3R0b20gb2YgdGhlXG4vLyBjb21waWxlZCBmaWxlLiBKYXZhU2NyaXB0IGNvZGUgaW4gdGhpcyBmaWxlIHNob3VsZCBiZSBhZGRlZCBhZnRlciB0aGUgbGFzdCByZXF1aXJlXyogc3RhdGVtZW50LlxuLy9cbi8vIFJlYWQgU3Byb2NrZXRzIFJFQURNRSAoaHR0cHM6Ly9naXRodWIuY29tL3JhaWxzL3Nwcm9ja2V0cyNzcHJvY2tldHMtZGlyZWN0aXZlcykgZm9yIGRldGFpbHNcbi8vIGFib3V0IHN1cHBvcnRlZCBkaXJlY3RpdmVzLlxuLy9cbi8vPSByZXF1aXJlIHJhaWxzLXVqc1xuLy89IHJlcXVpcmUgdHVyYm9saW5rc1xuLy89IHJlcXVpcmVfdHJlZSAuXG4iXSwibWFwcGluZ3MiOiJBQUFBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///../app/assets/javascripts/application.js\n");
+"use strict";
+eval("\n\nconsole.log('This is homepage');//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9ob21lcGFnZS9pbmRleC5qcy5qcyIsInNvdXJjZXMiOlsid2VicGFjazovLy9hcHAvYXNzZXRzL2phdmFzY3JpcHRzL3BhZ2VzL2hvbWVwYWdlL2luZGV4LmpzPzhiZTciXSwic291cmNlc0NvbnRlbnQiOlsiY29uc29sZS5sb2coJ1RoaXMgaXMgaG9tZXBhZ2UnKTtcbiJdLCJtYXBwaW5ncyI6Ijs7QUFBQSIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./pages/homepage/index.js\n");
 
 /***/ })
 

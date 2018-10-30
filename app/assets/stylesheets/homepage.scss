@@ -1,3 +1,14 @@
 // Place all the styles related to the homepage controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.background_star_sky{background-color:#000000}
+.star_canvas_color{
+  animation: color 1.5s both infinite;
+}
+@keyframes color{
+  0%  {background-color: gold;}
+  25% {background-color: #fff69a;}
+  50% {background-color: white;}
+  75% {background-color: #fff69a;}
+  100%{background-color: gold;}
+}

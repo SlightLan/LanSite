@@ -76,7 +76,7 @@ function initCanva() {
         let star = document.createElement('canvas');
         star.className = 'star_canvas';
         star.id = starNum.toString();
-        let size = Math.floor(Math.random() * (8 - 1)+ 1);
+        let size = Math.floor(Math.random() * (16 - 1)+ 1);
 
         if(size >= 6){
             vertexList.push(Math.floor((Math.random() * ( 5 - 3) + 3)) * 2);

@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="831b4223-d704-4ff6-a555-6823b24ab490" name="Default" comment="">
-<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-=======
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/pages/homepage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/pages/homepage/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/homepage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/homepage.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/homepage/show.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/homepage/show.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/pages.homepage.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/pages.homepage.bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
->>>>>>> 195e09f1013de9cd4c5d486f357f64b7974f601c
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -119,14 +109,9 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/pages/homepage/index.js">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
             <state relative-caret-position="114">
               <caret line="22" column="47" lean-forward="true" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
               <folding />
-=======
-            <state relative-caret-position="275">
-              <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
->>>>>>> 195e09f1013de9cd4c5d486f357f64b7974f601c
             </state>
           </provider>
         </entry>
@@ -435,21 +420,12 @@
       <option name="presentableId" value="Default" />
       <updated>1540730326222</updated>
       <workItem from="1540730327791" duration="9689000" />
-<<<<<<< HEAD
       <workItem from="1540818649276" duration="6845000" />
-=======
-      <workItem from="1540818649276" duration="6194000" />
-      <workItem from="1540827184998" duration="6166000" />
->>>>>>> 195e09f1013de9cd4c5d486f357f64b7974f601c
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-<<<<<<< HEAD
     <option name="totallyTimeSpent" value="16534000" />
-=======
-    <option name="totallyTimeSpent" value="22049000" />
->>>>>>> 195e09f1013de9cd4c5d486f357f64b7974f601c
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
@@ -596,28 +572,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/pages/homepage/index.js">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
         <state relative-caret-position="114">
           <caret line="22" column="47" lean-forward="true" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
           <folding />
-=======
-        <state relative-caret-position="275">
-          <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/homepage/show.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/homepage.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
->>>>>>> 195e09f1013de9cd4c5d486f357f64b7974f601c
         </state>
       </provider>
     </entry>

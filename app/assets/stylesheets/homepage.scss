@@ -1,7 +1,33 @@
 // Place all the styles related to the homepage controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.top_menu_bar li{
+  padding: 0px 1cm;
+  float: left;
+  color: white;
+  font-size: 20px;
+}
+.top_menu_bar li a{
+  color: white;
+  text-decoration: none;
+}
+
+
+
+.top_menu_container{
+  position: fixed;
+}
 .background_star_sky{background-color:#000000}
-.star_canvas_color{
-  animation: color 1.5s both infinite;
+.enter_btn{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -120px;
+  width: fit-content;
+  text-align: center;
+  color: white;
+  font-size: 100px;
+  background-color: transparent;
+  border-color: transparent;
 }

@@ -23,3 +23,15 @@ test:
 production:
   <<: *default
   database: db/production.sqlite3
+
+#default: &default
+#  adapter: mysql
+#  pool: 6
+#  timeout: 5000
+#  username: lan
+#  password: 'secret'
+#  port: 3306
+#
+#development:
+#  <<: *default
+#  database: LanSite_development

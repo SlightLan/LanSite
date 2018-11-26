@@ -43,7 +43,7 @@ var config = {
         rules: [
             {
                 test: require.resolve('jquery'),
-                loader: 'expose?jQuery!expose?$'
+                loader: 'expose-loader?jQuery!expose-loader?$'
             },
             {
                 test: /\.js$/,

@@ -56,3 +56,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # Add by Lan
 gem 'haml'
 gem 'erubis'
+gem 'typhoeus', '~> 1.3', '>= 1.3.1'
+gem 'uuid', '~> 2.3', '>= 2.3.9'

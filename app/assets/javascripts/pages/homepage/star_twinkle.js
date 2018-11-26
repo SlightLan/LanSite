@@ -69,13 +69,11 @@ export default function initCanva() {
     canvas[0].appendChild(bg);
     bg.style.width = window.innerWidth.toString()+'px';
     bg.style.height = window.innerHeight.toString()+'px';
-
     for(let starNum = 0; starNum < 60; starNum += 1) {
         let star = document.createElement('canvas');
         star.className = 'star_canvas';
         star.id = starNum.toString();
         let size = Math.floor(Math.random() * (16 - 1)+ 1);
-
         if(size >= 6){
             vertexList.push(Math.floor((Math.random() * ( 5 - 3) + 3)) * 2);
         } else {

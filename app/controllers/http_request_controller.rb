@@ -1,7 +1,7 @@
 class HttpRequestController < ApplicationController
   def show
-    @accesskey = "LTAIpkZFyfUpaDlQ"
-    @secretkey = "aYUNeSzJRfbuNGEFiK0TmylM7KDaam" + "&"
+    @accesskey = ""
+    @secretkey = "" + "&"
     Time.zone = "UTC"
     @time = Time.zone.now.strftime('%Y-%m-%dT%H:%M:%SZ')
     @hash = Hash.new

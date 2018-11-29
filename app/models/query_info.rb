@@ -1,0 +1,2 @@
+class QueryInfo < ApplicationRecord
+end

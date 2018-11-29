@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>LanSite</title>
-  <%= csrf_meta_tags %>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-  <%= webpack_javascripts_tag 'pages.homepage' %>
-</head>
+  <head>
+    <title>LanSite</title>
+    <%= csrf_meta_tags %>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= webpack_javascripts_tag 'pages.homepage' %>
+  </head>
 
-<body>
-  <%= yield %>
-</body>
+  <body>
+    <%= render 'background' %>
+    <%= yield %>
+  </body>
 </html>

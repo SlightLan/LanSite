@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  people_name: MyString
+  time: 2018-11-21 22:50:05
+  long: MyString
+  latitude: MyString
+  time_zone: 1
+
+two:
+  people_name: MyString
+  time: 2018-11-21 22:50:05
+  long: MyString
+  latitude: MyString
+  time_zone: 1
